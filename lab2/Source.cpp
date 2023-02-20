@@ -10,22 +10,45 @@ int main()
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 
-	//lab2
-
-
-	/*string surname;
-	float age;
-	int course;
-
-	cout << "введите фамилию: ";
-	cin >> surname;
-	cout << "введите возраст, с указанием мес€ца: ";
-	cin >> age;
-	cout << "введите номер курса: ";
-	cin >> course;
-	cout << "\nваши данные:\nфамили€: " << surname << " \nвозраст с указанием мес€ца: " << age << " \nномер курса: " << course << "\n";*/
-
 	//lab2.1
+
+
+	//string surname;
+	//float age;
+	//int course;
+
+	//cout << "введите фамилию: ";
+	//cin >> surname;
+	//cout << "введите возраст, с указанием мес€ца: ";
+	//cin >> age;
+	//cout << "введите номер курса: ";
+	//cin >> course;
+	//cout << "\nваши данные:\nфамили€: " << surname << " \nвозраст с указанием мес€ца: " << age << " \nномер курса: " << course << "\n";
+
+
+	//lab2.2
+	
+	/*cout << "введите int" << endl;
+	int a;
+	cin >> a;
+	cout << "введите float" << endl;
+	float b;
+	cin >> b;
+	cout << "введите double" << endl;
+	double c;
+	cin >> c;
+	cout << "введите char" << endl;
+	char d;
+	cin >> d;
+	cout << "введите string" << endl;
+	string e;
+	cin >> e;
+	cout << "введенные значени€: " << endl;
+	cout << "int значение: "<<a<<"" << endl << "float значение: "<<b<<"" << endl << "double значение: "<<c<<"" << endl << "char значение: "<<d<<"" << endl << "string значение: "<<e<<"" << endl;*/
+
+
+
+	//lab2.3
 
 
 	/*int num = 1;
@@ -49,7 +72,7 @@ int main()
 	//int b, c, d, f, j;
 	//cin >> b >> c >> d >> f >> j;
 
-	//int result = b + c / d - (f + j); // c / d дает в результате 1, поэтому int(целочисленный тип данных) преобразует в -18
+	//int result = b * c / d - f - j; // c / d дает в результате 1, поэтому int(целочисленный тип данных) преобразует в -7
 	//cout << result;
 
 	
@@ -59,7 +82,7 @@ int main()
 	//float b, c, d, f, j;
 	//cin >> b >> c >> d >> f >> j;
 
-	//int result = b + c / d - (f + j); // с / d дает в результате 1.375 (из-за float), int преобразует 1.375 в 1, поэтому ответ -17
+	//int result = b * c / d - f - j; // с / d дает в результате 1.375 (из-за float), int преобразует 1.375 в 1, поэтому ответ -6
 	//cout << result;
 	
 
@@ -69,7 +92,7 @@ int main()
 	//float b, c, d, f, j;
 	//cin >> b >> c >> d >> f >> j;
 
-	//float result = b + c / d - (f + j); // c / d дает в результате 1.375, поэтому float оставл€ет число с плавающей точкой, ответ -17
+	//float result = b * c / d - f - j; // c / d дает в результате 1.375, поэтому float оставл€ет число с плавающей точкой, ответ -6.33333
 	//cout << result;
 
 	
